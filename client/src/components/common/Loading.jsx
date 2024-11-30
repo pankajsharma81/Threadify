@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 import { Stack, CircularProgress } from "@mui/material";
 
 const Loading = () => {
@@ -12,7 +11,7 @@ const Loading = () => {
       alignItems={"center"}
       my={5}
     >
-      loader Stack
+      <CircularProgress color="success"/>
     </Stack>
   );
 };
